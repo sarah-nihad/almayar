@@ -32,7 +32,8 @@ const cookies =new Cookies();
         
        console.log(response.data.token);
        
-              localStorage.setItem('token',response.data.token)
+              localStorage.setItem('token',response.data.token);
+              localStorage.setItem('auth','lgoin')
               cookies.set("Authorization",response.data.token,{
                
                 expires:new Date(Date.now() + 60480000),

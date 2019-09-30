@@ -68,7 +68,7 @@ class Injection extends React.Component {
                                                             >
                                                                 {ctx.value.data2.map(((item, i) =>
 
-                                                                    <div id='slide_e1' style={{backgroundColor:'#fff'}}    key={i} onClick={() => {
+                                                                    <div id='slide_e1' style={{backgroundColor:'#fff',cursor:'pointer'}}    key={i} onClick={() => {
                                                                         window.location.href = `Category2/?id=${item.id}&&name=${item.name}`
 
                                                                     }}  >
@@ -99,7 +99,7 @@ class Injection extends React.Component {
                                                             >
                                                                 {ctx.value.data2.map(((item, i) =>
 
-                                                                    <div id='slide_e1' style={{backgroundColor:'#fff'}}    key={i} onClick={() => {
+                                                                    <div id='slide_e1' style={{backgroundColor:'#fff',cursor:'pointer'}}    key={i} onClick={() => {
                                                                         window.location.href = `Category2/?id=${item.id}`
 
                                                                     }}  >
@@ -130,7 +130,7 @@ class Injection extends React.Component {
                                                             >
                                                                 {ctx.value.data2.map(((item, i) =>
 
-                                                                    <div id='slide_e1' style={{backgroundColor:'#fff'}} key={i} onClick={() => {
+                                                                    <div id='slide_e1' style={{backgroundColor:'#fff',cursor:'pointer'}} key={i} onClick={() => {
                                                                         window.location.href = `Category2/?id=${item.id}&name=${item.name}`
 
                                                                     }}  >

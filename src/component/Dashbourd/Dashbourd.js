@@ -50,7 +50,8 @@ class Dashbourd extends React.Component {
                                     </Row>
                                 </div>
                             </div>
-                        )
+                      
+                      )
                     }
 
                     else if (localStorage.getItem("auth") === 'notlogin') {
